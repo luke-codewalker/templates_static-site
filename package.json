@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "rollup -c",
-    "dev": "rollup -c -w && sirv",
+    "build": "rollup -c -w",
     "serve": "sirv dist --dev"
   },
   "keywords": [],
@@ -13,6 +12,7 @@
   "license": "ISC",
   "devDependencies": {
     "rollup": "^2.38.0",
+    "rollup-plugin-livereload": "^2.0.0",
     "sirv-cli": "^1.0.10"
   }
 }
