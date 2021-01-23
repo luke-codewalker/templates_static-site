@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "rollup -c -w",
-    "serve": "sirv dist --dev",
+    "serve": "sirv dist --dev --host",
     "start": "concurrently -n \"build 🚧\",\"serve 🚀\" \"npm run build\" \"npm run serve\""
   },
   "keywords": [],
