@@ -1,0 +1,18 @@
+{
+  "name": "templates_static-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w && sirv",
+    "serve": "sirv dist --dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "rollup": "^2.38.0",
+    "sirv-cli": "^1.0.10"
+  }
+}
