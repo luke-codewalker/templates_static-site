@@ -13,7 +13,7 @@ This template is customized to my needs and preferences and meant for simple pro
 Copy the template:
 
 ```
-npx degit luke-codewalker/templates_static-site your-project-name
+npx degit luke-codewalker/templates_static-site#main <your-project-name>
 ```
 
 Install the dependencies and run the development script:
