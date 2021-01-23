@@ -1,5 +1,6 @@
 import livereload from 'rollup-plugin-livereload';
 import typescript from '@rollup/plugin-typescript';
+import scss from 'rollup-plugin-scss';
 
 export default {
     input: 'src/app.ts',
@@ -11,6 +12,9 @@ export default {
         livereload(),
         typescript({
             sourceMap: true
+        }),
+        scss({
+            output: 'dist/build/styles.css'
         }),
     ],
 }
